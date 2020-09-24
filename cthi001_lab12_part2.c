@@ -55,7 +55,7 @@ int bullet(state2) {
 			case shift:
 				if(shoot ==1){
 					/*
-					PROJECTILE LOGIC, FUCK!!!!!!!!!!
+					PROJECTILE LOGIC!!!!!!!!!!
 					*/
 					if ( (posb == posb2 || posb == posb2+1)&&type3 %2 == 1){s3 = 1;state2 = reset;break;}
 					if ( (posb == pos1 || posb == pos1+1)&&type1 %2 ==1 ){s1 = 1;state2 = reset;break;}
@@ -88,7 +88,7 @@ int bullet2(state3) {
 			case shift:
 				if(shoot2 ==1){
 					/*
-					PROJECTILE LOGIC, FUCK!!!!!!!!!!
+					PROJECTILE LOGIC!!!!!!!!!!
 					*/
 					if ( (posb2 == pos1 || posb2 == pos1-1|| posb2 == pos1+1)){s1 = 1;}
 					if ( (posb2 == pos2 || posb2 == pos2-1 || posb2==pos2+1)){s2 = 1;}
